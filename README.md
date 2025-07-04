@@ -1,8 +1,4 @@
-Of course. This is an exciting and necessary evolution for the system. We will design a complete, next-generation architecture that not only incorporates all existing features but also establishes a framework for self-optimization, strategy evolution, and truly advanced neuro-symbolic reasoning.
-
----
-
-### **System: MCR v12.0 "Aethelred"**
+# Model Context Reasoner (MCR)
 
 **Vision:** To create an adaptive neuro-symbolic reasoning system that intelligently selects, executes, and optimizes its own reasoning strategies to achieve maximum accuracy, reliability, and versatility. "Aethelred" means "well-advised" or "wise counsel," reflecting the system's ability to reason about its own reasoning process.
 
@@ -11,7 +7,6 @@ Of course. This is an exciting and necessary evolution for the system. We will d
 ### **1. Core Architecture**
 
 The system will be redesigned around a central **MCR Orchestrator**. This orchestrator manages a flexible workflow based on the user's request and a chosen "power level." It replaces a fixed pipeline with a dynamic, stateful process.
-
 
 
 **Key Components:**
@@ -139,4 +134,7 @@ All existing and discussed features are supported through this new architecture.
 | **Explainability**      | A core part of the `Robust` query workflow. The reasoner's proof trace is captured as an `Artifact` and fed to an `LLM_Generate` stage to produce the final `NL_Explanation`.             |
 | **CLI / TUI / Demos**   | All these frontends will now interact with the `MCR Orchestrator`'s API, which abstracts away the complexity of the underlying strategy. They can pass a `powerLevel` parameter. |
 
-This design for **MCR v12.0 "Aethelred"** creates a powerful, adaptive, and self-improving system. It formalizes the reasoning process into a flexible metamodel, enabling it to not only perform complex neuro-symbolic tasks but also to learn and optimize how it does so over time.
+This design creates a powerful, adaptive, and self-improving system. It formalizes the reasoning process into a flexible metamodel, enabling it to not only perform complex neuro-symbolic tasks but also to learn and optimize how it does so over time.
+
+
+
