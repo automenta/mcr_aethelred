@@ -16,7 +16,7 @@ The system will be redesigned around a central **MCR Orchestrator**. This orches
 *   **Strategy Selector:** A new, intelligent component responsible for choosing the optimal workflow strategy based on the request, context, and historical performance data.
 *   **Execution Engine:** Executes the individual stages of a workflow, calling upon LLM providers, the Reasoner, and other programmatic tools.
 *   **Knowledge Subsystem:**
-    *   **Session Manager:** Manages the state of individual reasoning sessions (facts, history). Persisted via SQLite or Redis.
+    *   **Session Manager:** Manages the state of individual reasoning sessions (facts, history), with persistence implementations: In-Memory, or Filesystem.
     *   **Ontology Manager:** Manages a library of persistent, global ontologies.
 *   **Performance & Learning Subsystem:** A background system that logs all outcomes, analyzes performance, and provides data to the `Strategy Selector` and `Tuning Mode`.
 
